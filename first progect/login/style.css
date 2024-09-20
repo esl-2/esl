@@ -1,0 +1,86 @@
+.login{
+    background-color: #fff;
+    color: #000;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    position: relative;
+    height: 70vh;
+    background:linear-gradient(#4d0a71,#1c033e);
+    padding: 3vh;
+    margin: 2vw;
+    border-radius: 15px;
+    box-shadow:4px 3px 15px 10px #150524 ;
+    font-size: 22PX;
+} 
+input{
+    background-color: #4c1476;
+    padding:1vw;
+    margin: 5vh;
+    border: 0vw;
+    box-shadow: 4px 5px 7px 3px #17002b ;
+    border-radius: 4px;
+    /*width: 60vh;*/
+    width: 60vw;
+    font-size: large;
+}
+input:focus{
+    outline: 0;
+}
+label{
+
+    position: absolute;
+    color: #c097c9;
+}
+input::placeholder{
+    color: #bd8fdb;
+    font-size: 25px;
+}
+#reset,button{
+    box-shadow: 0 0 0 0 ;
+    padding: 0px;
+    margin: 0px;
+    width: 33vw;
+    height: 6vh;
+    color: #7a4699;
+    background-color: #350955;
+    border: 0px;
+    border-radius:8px;
+    transition: all 0.5s ;
+    font-size: larger;
+}
+#reset:hover,button:hover{
+    height: 7vh;
+    width:34vw;
+}
+#fn , #ln {
+    width: 21vw;
+}
+.signin a{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    position: relative;
+}
+.signin a div{
+    display: flex;
+    background-color: #3d1542;
+    width: 28vw;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#50196e,#280559);
+    border-radius: 10px;
+    color: #a070b6;
+    transition: all 0.5s ;
+    box-shadow: 2px 3px 15px 10px #150524 ;
+
+}
+.signin a div:hover{
+    width: 29vw;
+    height: 6vh;
+}

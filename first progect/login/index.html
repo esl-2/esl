@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../imp.css">
+</head>
+<body>
+    <section class="hed">
+        <h2><a href="../home/index.html">nouvil</a></h2>
+        <ul>
+          <li><a href="../home/index.html" class="Home">Home</a> </li>
+          <li><a href="../play/web.html" class="Product" onclick="myMove()">play</a> </li>
+          <li><a href="../shop/index.html" class="Shop">Shop</a> </li>
+          <li><a href="../about/index.html" class="About">About</a> </li>
+          <li><a href="../login/index.html" class="login">login</a> </li>
+        </ul>
+    </section>
+    <section class="main">
+        <img src="stars1.webp" id="stars" alt="">
+    </section>
+    <span>
+        <form>
+          <div class="name">
+            <label for="fn">first name</label>
+            <input type="text" name="fname" id="fn" placeholder="first name" minlength="3" maxlength="10">
+            <label for="ln">last name</label>
+            <input type="text" name="lname" id="ln" placeholder="last name" minlength="3" maxlength="10">
+          </div>
+          <div class="num">
+            <label for="number">number</label>
+            <input type="text" name="number" id="number" placeholder="enter your num" minlength="10" maxlength="12" >
+          </div>
+          <div class="pass">
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" placeholder="enter your pass" minlength="6" >
+          </div>
+          <div class="email">
+            <label for="email">email</label>
+            <input type="email" name="email" placeholder="enter your email" >
+          </div>
+          <div id="bu"> 
+            <input type="reset" id="reset">
+            <button type="submit">login</button>
+          </div>
+        </form>
+    </span>
+    <div class="signin"><a href="#"><div>i have account</div></a></div>
+</body>
+<script src="js.js"></script>
+</html>

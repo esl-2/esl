@@ -1,0 +1,13 @@
+.Shop{
+    background-color: #ffffff;
+    color: #230219;
+}
+.main{
+    position: relative;
+    height: 90vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
